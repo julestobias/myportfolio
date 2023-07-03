@@ -85,3 +85,134 @@
     transition: 0.5s;
     color: white;
 }
+
+.aboutme img {
+    -webkit-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
+}
+
+.aboutme h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.progressbar {
+    background-color: rgb(223, 219, 219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+}
+
+.progressbar-value1 {
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progressbar-value2 {
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progressbar-value3 {
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progressbar-value4 {
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.progressbar p {
+    color: white;
+    padding-left: 25px;
+}
+
+
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+.aboutme .btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.aboutme .btn1:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.aboutme .btn2 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+
+.aboutme .btn2:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
