@@ -86,6 +86,12 @@
     color: white;
 }
 
+/* ABOUT ME SECTION */
+
+/* .aboutme {
+    height: 100vh;
+} */
+
 .aboutme img {
     -webkit-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 4px 29px -14px rgba(0,0,0,0.75);
@@ -106,6 +112,10 @@
     display: flex;
     height: 25px;
     width: 100%;
+
+    -webkit-box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
+    box-shadow: inset 1px -3px 176px -97px rgba(0,0,0,0.75);
 }
 
 .progressbar-value1 {
@@ -216,3 +226,58 @@
     border: none;
     transition: 0.5s;
 }
+
+
+
+/* My Portfolio Section */
+
+.myportfolio .card {
+    border: none;
+    outline: none;
+}
+
+.myportfolio .card p {
+    color: gray;
+}
+
+
+
+
+.ecommerce-profile, .heart-foundation-profile, .jules-profile {
+    height: 300px;
+    width: 100%;
+}
+
+.ecommerce-logo, .heart-foundation-logo, .jules-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.ecommerce-btn, .heart-foundation-btn, .jules-btn {
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+}
+
+.ecommerce-btn:hover, .heart-foundation-btn:hover, .jules-btn:hover {
+    background-color: rgb(21, 105, 189);
+    transition: 0.5s;
+}
+
+
+.myportfolio .container {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
