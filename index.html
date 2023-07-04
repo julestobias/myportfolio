@@ -18,26 +18,27 @@
     <!-- Navbar -->
         <nav class="navbar navbar-expand-lg text-uppercase sticky-top">
             <div class="container">
-                <a class="navbar-brand font-weight-bold" href="#">/Jules</a>
+                <a class="navbar-brand font-weight-bold" href="#landing">/Jules</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active px-lg-4 rounded" href="#">Home</a>
-                        <a class="nav-item nav-link px-lg-4 rounded" href="#">About Me</a>
-                        <a class="nav-item nav-link px-lg-4 rounded" href="#">Projects</a>
-                        <a class="nav-item nav-link px-lg-4 rounded" href="#">Tools</a>
-                        <a class="nav-item nav-link px-lg-4 rounded" href="#">Contact</a>
+                        <a class="nav-item nav-link active px-lg-4 rounded" href="#landing">Home</a>
+                        <a class="nav-item nav-link px-lg-4 rounded" href="#aboutme">About Me</a>
+                        <a class="nav-item nav-link px-lg-4 rounded" href="#myportfolio">Projects</a>
+                        <a class="nav-item nav-link px-lg-4 rounded" href="#tools">Tools</a>
+                        <a class="nav-item nav-link px-lg-4 rounded" href="#contactme">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
     <!-- END Navbar -->
 
+    <div class="body-scroll">
 
-    <!-- Landing page -->
-        <section class="landing py-5">
+        <!-- Landing page -->
+        <section class="landing py-5" id="landing">
             <div class="container py-5">
                 <div class="row py-5">
                     <div class="col-lg-6 py-5">
@@ -45,174 +46,221 @@
                             Jules Tobias
                         </h3>
                         <h6 class="pt-3 py-0">Full Stack Developer</h6>
-                        <input type="button" value="Portfolio" class="button1 mt-5 mr-3">
-                        <input type="button" value="Hire Me" class="button2 mt-5">
+                        <input type="button" value="Portfolio" class="button1 mt-5 mr-3" href="#myportfolio">
+                        <input type="button" value="Hire Me" class="button2 mt-5" href="#contactme">
                     </div>
                 </div>
             </div>
         </section>
-    <!-- END Landing page -->
+        <!-- END Landing page -->
 
-    <!-- About ME -->
-        <section class="aboutme py-5">
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <img src="./images/jules.jpg" alt="half body picture of a man named Jules" class="img-fluid mb-5">
-                    </div>
-                    <div class="col-lg-7 pt-3">
-                        <h1>About Me.</h1>
-                        <p>Full Stack Web Developer</p>
-                        <p class="py-3">I am <span class="font-weight-bold">Jules Tobias</span>, a full stack web developer based in the Philippines. I enjoy turning complex problems into simple solutions. I have a background in Banking Operations and have ventured towards Web Development. When I'm not coding and learning new languages, you'll find me in my room sleeping or in the garden watering the plants.</p>
-
-                        <div class="progressbar my-3">
-                            <div class="progressbar-value1">
-                                <p>HTML / CSS / BOOTSTRAP<span class="text-white float-right pr-4">85%</span></p>
-                            </div>
+        <!-- About ME -->
+            <section class="aboutme py-5" id="aboutme">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="./images/jules.jpg" alt="half body picture of a man named Jules" class="img-fluid mb-5">
                         </div>
+                        <div class="col-lg-7 pt-3">
+                            <h1>About Me.</h1>
+                            <p>Full Stack Web Developer</p>
+                            <p class="py-3">I am <span class="font-weight-bold">Jules Tobias</span>, a full stack web developer based in the Philippines. I enjoy turning complex problems into simple solutions. I have a background in Banking Operations and have ventured towards Web Development. When I'm not coding and learning new languages, you'll find me in my room sleeping or in the garden watering the plants.</p>
 
-                        <div class="progressbar my-3">
-                            <div class="progressbar-value2">
-                                <p>JAVASCRIPT <span class="text-white float-right pr-4">75%</span></p>
+                            <div class="progressbar my-3">
+                                <div class="progressbar-value1">
+                                    <p>HTML / CSS / BOOTSTRAP<span class="text-white float-right pr-4">85%</span></p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="progressbar my-3">
-                            <div class="progressbar-value3">
-                                <p>REACT.JS <span class="text-white float-right pr-4">70%</span></p>
+                            <div class="progressbar my-3">
+                                <div class="progressbar-value2">
+                                    <p>JAVASCRIPT <span class="text-white float-right pr-4">75%</span></p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="progressbar my-3">
-                            <div class="progressbar-value4">
-                                <p>JAVA <span class="text-white float-right pr-4">20%</span></p>
+                            <div class="progressbar my-3">
+                                <div class="progressbar-value3">
+                                    <p>REACT.JS <span class="text-white float-right pr-4">70%</span></p>
+                                </div>
                             </div>
+
+                            <div class="progressbar my-3">
+                                <div class="progressbar-value4">
+                                    <p>JAVA <span class="text-white float-right pr-4">20%</span></p>
+                                </div>
+                            </div>
+
+                            <input type="button" class="btn1 mt-5" value="Download Resume">
+
+                            <input type="button" class="btn2 mt-5" value="Contact Me">
+
                         </div>
-
-                        <input type="button" class="btn1 mt-5" value="Download Resume">
-
-                        <input type="button" class="btn2 mt-5" value="Contact Me">
-
                     </div>
                 </div>
-            </div>
-        </section>    
-    <!-- END About ME -->
+            </section>    
+        <!-- END About ME -->
 
 
-    <!-- Portfolio -->
-        <section class="myportfolio py-5 bg-light">
+        <!-- Portfolio -->
+            <section class="myportfolio py-5 bg-light" id="myportfolio">
 
-            <h1 class="text-center pb-5">My Portfolio.</h1>
-            
-            <div class="container">
+                <h1 class="text-center py-5 font-weight-bold">My Portfolio.</h1>
                 
-
-                <div class="row pb-3 d-flex justify-content-center">
+                <div class="container">
                     
-                    <div class="ecommerce col-lg-6 my-5">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <div>
-                                    <img src="./images/portfolio-ecommerce.jpg" alt="snapshot of an ecommerce website made by Jules Tobias" class="ecommerce-profile p-2">
+
+                    <div class="row pb-3 d-flex justify-content-center">
+                        
+                        <div class="ecommerce col-lg-6 my-5">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <div>
+                                        <img src="./images/portfolio-ecommerce.jpg" alt="snapshot of an ecommerce website made by Jules Tobias" class="ecommerce-profile p-2">
+                                    </div>
+                                    <h4 class="font-weight-bold pb-2">E-Commerce Website</h4>
+                                    <p>An dynamic E-Commerce website with complete functionality from user register, login, admin functionality, retrieval, activation, and deactivation of all items for sale. </p>
+                                    <h5 class="font-weight-bold">Tools</h5>
+                                    <div class="logo">
+                                        <img src="./images/logo-javascript.png" alt="JavaScipt logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-mongodb.png" alt="mongoDB logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-express.png" alt="Express.js logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-react.png" alt="React.js logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-nodejs.png" alt="Node.js logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-sublime-text-3.png" alt="Sublime Text logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-postman.png" alt="Postman logo" class="ecommerce-logo img-fluid">
+                                        <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="ecommerce-logo img-fluid">
+                                    </div>
+                                    <input type="button" class="ecommerce-btn mt-5" value="Visit">
                                 </div>
-                                <h4 class="font-weight-bold pb-2">E-Commerce Website</h4>
-                                <p>An dynamic E-Commerce website with complete functionality from user register, login, admin functionality, retrieval, activation, and deactivation of all items for sale. </p>
-                                <h5 class="font-weight-bold">Tools</h5>
-                                <div class="logo">
-                                    <img src="./images/logo-javascript.png" alt="JavaScipt logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-mongodb.png" alt="mongoDB logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-express.png" alt="Express.js logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-react.png" alt="React.js logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-nodejs.png" alt="Node.js logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-sublime-text-3.png" alt="Sublime Text logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-postman.png" alt="Postman logo" class="ecommerce-logo img-fluid">
-                                    <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="ecommerce-logo img-fluid">
-                                </div>
-                                <input type="button" class="ecommerce-btn mt-5" value="Visit">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="heart-foundation col-lg-6 my-5">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <div>
-                                    <img src="./images/portfolio-foundation.jpg" alt="snapshot of HEART Foundation website made by Jules Tobias" class="heart-foundation-profile img-fluid p-2">
+                        <div class="heart-foundation col-lg-6 my-5">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <div>
+                                        <img src="./images/portfolio-foundation.jpg" alt="snapshot of HEART Foundation website made by Jules Tobias" class="heart-foundation-profile img-fluid p-2">
+                                    </div>
+                                    <h4 class="font-weight-bold pb-2">HEART Foundation website</h4>
+                                    <p>A static website for a foundation showcasing the foundation's information divided into sections including a contact me page. </p>
+                                    <h5 class="font-weight-bold">Tools</h5>
+                                    <div class="logo">
+                                        <img src="./images/logo-html5.png" alt="HTML logo" class="heart-foundation-logo img-fluid">
+                                        <img src="./images/logo-css.png" alt="CSS logo" class="heart-foundation-logo img-fluid">
+                                        <img src="./images/logo-bootstrap.png" alt="Bootstrap logo" class="heart-foundation-logo img-fluid">
+                                        <img src="./images/logo-vscode.png" alt="Visual Studio Code logo" class="heart-foundation-logo img-fluid">
+                                        <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="heart-foundation-logo img-fluid">
+                                    </div>
+                                    <input type="button" class="heart-foundation-btn mt-5" value="Visit">
                                 </div>
-                                <h4 class="font-weight-bold pb-2">HEART Foundation website</h4>
-                                <p>A static website for a foundation showcasing the foundation's information divided into sections including a contact me page. </p>
-                                <h5 class="font-weight-bold">Tools</h5>
-                                <div class="logo">
-                                    <img src="./images/logo-html5.png" alt="HTML logo" class="heart-foundation-logo img-fluid">
-                                    <img src="./images/logo-css.png" alt="CSS logo" class="heart-foundation-logo img-fluid">
-                                    <img src="./images/logo-bootstrap.png" alt="Bootstrap logo" class="heart-foundation-logo img-fluid">
-                                    <img src="./images/logo-vscode.png" alt="Visual Studio Code logo" class="heart-foundation-logo img-fluid">
-                                    <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="heart-foundation-logo img-fluid">
-                                </div>
-                                <input type="button" class="heart-foundation-btn mt-5" value="Visit">
                             </div>
                         </div>
-                    </div>
 
-                    <div class="jules col-lg-6 my-5">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <div>
-                                    <img src="./images/portfolio-jules.png" alt="snapshot of a portfolio website made by Jules Tobias" class="heart-foundation-profile img-fluid p-2">
+                        <div class="jules col-lg-6 my-5">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <div>
+                                        <img src="./images/portfolio-jules.png" alt="snapshot of a portfolio website made by Jules Tobias" class="heart-foundation-profile img-fluid p-2">
+                                    </div>
+                                    <h4 class="font-weight-bold pb-2">Portfolio website</h4>
+                                    <p>A static Web Developer portolio website showcasing the utilized tools and skillset. These are subdivided into pages including a contact me page and embedded website links.</p>
+                                    <h5 class="font-weight-bold">Tools</h5>
+                                    <div class="logo">
+                                        <img src="./images/logo-html5.png" alt="HTML logo" class="jules-logo img-fluid">
+                                        <img src="./images/logo-css.png" alt="CSS logo" class="jules-logo img-fluid">
+                                        <img src="./images/logo-bootstrap.png" alt="Bootstrap logo" class="jules-logo img-fluid">
+                                        <img src="./images/logo-vscode.png" alt="Visual Studio Code logo" class="jules-logo img-fluid">
+                                        <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="jules-logo img-fluid">
+                                        <img src="./images/logo-git.png" alt="Github logo" class="jules-logo img-fluid">
+                                    </div>
+                                    <input type="button" class="jules-btn mt-5" value="Visit">
                                 </div>
-                                <h4 class="font-weight-bold pb-2">Portfolio website</h4>
-                                <p>A static Web Developer portolio website showcasing the utilized tools and skillset. These are subdivided into pages including a contact me page and embedded website links.</p>
-                                <h5 class="font-weight-bold">Tools</h5>
-                                <div class="logo">
-                                    <img src="./images/logo-html5.png" alt="HTML logo" class="jules-logo img-fluid">
-                                    <img src="./images/logo-css.png" alt="CSS logo" class="jules-logo img-fluid">
-                                    <img src="./images/logo-bootstrap.png" alt="Bootstrap logo" class="jules-logo img-fluid">
-                                    <img src="./images/logo-vscode.png" alt="Visual Studio Code logo" class="jules-logo img-fluid">
-                                    <img src="./images/logo-gitlab-ci-cd.png" alt="Gitlab logo" class="jules-logo img-fluid">
-                                    <img src="./images/logo-git.png" alt="Github logo" class="jules-logo img-fluid">
-                                </div>
-                                <input type="button" class="jules-btn mt-5" value="Visit">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        <!-- END Portfolio -->
+
+
+        <!-- Tools -->
+            <section class="tools py-5" id="tools">
+                <div class="container ">
+                    <h1 class="text-center py-5 font-weight-bold">Tools.</h1>
+
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10 text-center">
+                            <div class="logo">
+                                <img src="./images/logo-html5.png" alt="">
+                                <img src="./images/logo-css.png" alt="">
+                                <img src="./images/logo-javascript.png" alt="">
+                                <img src="./images/logo-bootstrap.png" alt="">
+                                <img src="./images/logo-mongodb.png" alt="">
+                                <img src="./images/logo-express.png" alt="">
+                                <img src="./images/logo-react.png" alt="">
+                                <img src="./images/logo-nodejs.png" alt="">
+                                <img src="./images/logo-git.png" alt="">
+                                <img src="./images/logo-gitlab-ci-cd.png" alt="">
+                                <img src="./images/logo-postman.png" alt="">
+                                <img src="./images/logo-sublime-text-3.png" alt="">
+                                <img src="./images/logo-vscode.png" alt="">
                             </div>
                         </div>
                     </div>
 
                 </div>
-            </div>
-        </section>
-    <!-- END Portfolio -->
+            </section>
+        <!-- END Tools -->
 
+        <!-- Contact ME -->
+            <section class="contactme bg-light" id="contactme">
+                <div class="container py-5">
+                    <h1 class="text-center py-5 font-weight-bold">Contact Me.</h1>
 
-    <!-- Tools -->
-        <section class="tools py-5">
-            <div class="container ">
-                <h1 class="text-center pb-5">Tools.</h1>
+                    <div class="col-lg-9 mx-auto">
+                        <form action="">
+                            <div class="form-row">
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control mb-3" placeholder="Name">
+                                </div>
+                            </div>
 
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <div class="logo">
-                            <img src="./images/logo-html5.png" alt="">
-                            <img src="./images/logo-css.png" alt="">
-                            <img src="./images/logo-javascript.png" alt="">
-                            <img src="./images/logo-bootstrap.png" alt="">
-                            <img src="./images/logo-mongodb.png" alt="">
-                            <img src="./images/logo-express.png" alt="">
-                            <img src="./images/logo-react.png" alt="">
-                            <img src="./images/logo-nodejs.png" alt="">
-                            <img src="./images/logo-git.png" alt="">
-                            <img src="./images/logo-gitlab-ci-cd.png" alt="">
-                            <img src="./images/logo-postman.png" alt="">
-                            <img src="./images/logo-sublime-text-3.png" alt="">
-                            <img src="./images/logo-vscode.png" alt="">
-                        </div>
+                            <div class="form-row">
+                                <div class="col-lg-6">
+                                    <input type="tel" class="form-control mb-3" placeholder="Contact no.">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-lg-12">
+                                    <textarea name="" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+
+                            <button class="btn3 my-4">Send Message</button>
+
+                        </form>
                     </div>
+
                 </div>
+            </section>
 
-            </div>
-        </section>
-    <!-- END Tools -->
+        <!-- END Contact ME -->
 
-    <!--  -->
+        
+    </div>
+
+    
+
+
+    <!-- Footer -->
+        <footer class="py-5 text-center">
+            <p>All Rights Reserved 2023</p>
+        </footer>
+            
+
+    <!-- END Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
