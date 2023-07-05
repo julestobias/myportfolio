@@ -46,8 +46,9 @@
                             Jules Tobias
                         </h3>
                         <h6 class="pt-3 py-0">Full Stack Developer</h6>
-                        <input type="button" value="Portfolio" class="button1 mt-5 mr-3" href="#myportfolio">
-                        <input type="button" value="Hire Me" class="button2 mt-5" href="#contactme">
+                        <a href="#myportfolio"><input type="button" value="Portfolio" class="button1 mt-5 mr-3"></a>
+                        <a href="#contactme"><input type="button" value="Hire Me" class="button2 mt-5"></a>
+
                     </div>
                 </div>
             </div>
@@ -92,7 +93,7 @@
 
                             <input type="button" class="btn1 mt-5" value="Download Resume">
 
-                            <input type="button" class="btn2 mt-5" value="Contact Me">
+                            <a href="#contactme"><input type="button" class="btn2 mt-5" value="Contact Me"></a>
 
                         </div>
                     </div>
@@ -218,26 +219,43 @@
                 <div class="container py-5">
                     <h1 class="text-center py-5 font-weight-bold">Contact Me.</h1>
 
-
-
                     <div class="col-lg-9 mx-auto">
                         <form action="https://formsubmit.co/15c5c2f1c0bb99be4c71d0c243573e7c " method="POST">
+
+                            <!-- Honeypot -->
+                            <input type="text" name="_honey" style="display: none;">
+
+                            <!-- Disable Captcha -->
+                            <!-- <input type="hidden" name="_captcha" value="false"> -->
+
+                            <!-- Success page -->
+                            <input type="hidden" name="_next" value="">
+
                             <div class="form-row">
                                 <div class="col-lg-6">
-                                    <input type="text" class="form-control mb-3" placeholder="Name" required>
+                                    <input type="text" class="form-control mb-3" placeholder="Name" name="Name" maxlength="25" required>
                                 </div>
+                            </div>
+
+                            <div class="form-row">
                                 <div class="col-lg-6">
-                                    <input type="email" class="form-control mb-3" placeholder="Email" required>
+                                    <input type="tel" class="form-control mb-3" placeholder="Contact No." name="Contact&nbsp;no." maxlength="11" required >
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="col-lg-6">
+                                    <input type="email" class="form-control mb-3" placeholder="Email" name="Email" required>
                                 </div>
                             </div>
 
                             <div class="form-row">
                                 <div class="col-lg-12">
-                                    <textarea name="" class="form-control" placeholder="Message" cols="30" rows="10" required></textarea>
+                                    <textarea name="" class="form-control" placeholder="Message" cols="30" rows="10" name="Message" maxlength="850" required></textarea>
                                 </div>
                             </div>
 
-                            <button class="btn3 my-4">Send Message</button>
+                            <button class="btn3 my-4" type="submit">Send Message</button>
 
                         </form>
                     </div>
