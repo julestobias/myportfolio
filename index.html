@@ -226,12 +226,6 @@
                             <!-- Honeypot -->
                             <input type="text" name="_honey" style="display: none;">
 
-                            <!-- Disable Captcha -->
-                            <input type="hidden" name="_captcha" value="false">
-
-                            <!-- Success page -->
-                            <input type="hidden" name="_next" value="https://julestobias.github.io/myportfolio/success.html">
-
                             <div class="form-row">
                                 <div class="col-lg-6">
                                     <input type="text" class="form-control mb-3" placeholder="Name" name="Name" maxlength="25" required>
@@ -257,6 +251,15 @@
                             </div>
 
                             <button class="btn3 my-4" type="submit">Send Message</button>
+
+                            <!-- Disable Captcha -->
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <!-- Table format in email -->
+                            <input type="hidden" name="_template" value="table">
+
+                            <!-- Success page -->
+                            <input type="hidden" name="_next" value="https://julestobias.github.io/myportfolio/success.html">
 
                         </form>
                     </div>
